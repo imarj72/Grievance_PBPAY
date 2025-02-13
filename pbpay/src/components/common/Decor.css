@@ -1,0 +1,10 @@
+.decor-img {
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .decor-img {
+      display: none;
+    }
+  }
+  

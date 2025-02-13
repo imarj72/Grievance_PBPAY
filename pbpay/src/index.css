@@ -1,0 +1,11 @@
+/* @import "tailwindcss"; */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: 'linear-gradient(to bottom, #E9F7FF, #DDEFFF, #FFFFFF)';
+  height: '250px';
+  width: '100%';
+  margin: 0;
+  padding:0;
+  scroll-behavior: smooth;
+  /* color: #2d3436; */
+}
