@@ -12,7 +12,7 @@ import {
   Link as MuiLink,
 } from "@mui/material";
 import Nav from "../common/Nav";
-import Decor from "../common/Decor";
+// import Decor from "../common/Decor";
 
 const Grievance = () => {
   return (

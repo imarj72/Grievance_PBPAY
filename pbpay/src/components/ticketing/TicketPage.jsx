@@ -124,16 +124,16 @@ const TicketPage = () => {
                     >
                       ₹290
                     </Typography>
-                    <Box
-                      sx={{
-                        width: 0,
-                        height: 0,
-                        borderLeft: "8px solid transparent",
-                        borderRight: "8px solid transparent",
-                        borderTop: "12px solid #000000",
-                        ml: 1,
-                      }}
-                    />
+                    {/* <Box
+                      // sx={{
+                      //   width: 0,
+                      //   height: 0,
+                      //   borderLeft: "8px solid transparent",
+                      //   borderRight: "8px solid transparent",
+                      //   borderTop: "12px solid #000000",
+                      //   ml: 1,
+                      // }}
+                    /> */}
                   </Box>
                 </Box>
               </CardContent>

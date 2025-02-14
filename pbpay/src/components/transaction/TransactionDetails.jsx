@@ -85,7 +85,7 @@ const TransactionDetails = () => {
             item
             xs={12}
             sm={4}
-            sx={{ display: { xs: "none", sm: "block" } }}
+            sx={{ display: { xs: "none",sm:'none', md: "block" } }}
           >
             <Typography
               sx={{
@@ -177,7 +177,7 @@ const TransactionDetails = () => {
             </Card>
           </Grid>
 
-          <Grid item xs={12} sm={8}>
+          <Grid item xs={12} sm={12} md={8}>
             <Box sx={{ display: "flex", alignItems: "center", mb: 3 }}>
               <IconButton onClick={handleGoBack} sx={{ p: 0, mr: 1 }}>
                 <img src="/Icons/Goback.svg" alt="svg" />

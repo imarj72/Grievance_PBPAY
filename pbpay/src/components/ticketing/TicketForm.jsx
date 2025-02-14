@@ -221,14 +221,15 @@ const TicketForm = () => {
                       ₹{amount}
                     </Typography>
                     <Box
-                      sx={{
-                        width: 0,
-                        height: 0,
-                        borderLeft: "8px solid transparent",
-                        borderRight: "8px solid transparent",
-                        borderTop: "12px solid #000000",
-                        ml: 1
-                      }}
+                      // sx={{
+                      //   width: 0,
+                      //   height: 0,
+                      //   borderLeft: "8px solid transparent",
+                      //   borderRight: "8px solid transparent",
+                      //   borderTop: "12px solid #000000",
+                      //   ml: 1,
+                      //   rotate:'270deg',
+                      // }}
                     />
                   </Box>
                 </Box>

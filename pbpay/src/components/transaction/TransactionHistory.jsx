@@ -140,7 +140,7 @@ const TransactionHistory = ({ phoneNumber }) => {
             fontWeight: 700,
             fontSize: { xs: '20px', md: '32px' },
             lineHeight: '42px',
-            color: '#253858'
+            color: '#253858',
           }}
         >
           Payment status
@@ -176,7 +176,7 @@ const TransactionHistory = ({ phoneNumber }) => {
             Change
           </button>
         </Box>
-        <Box sx={{ mt: 1 }}>
+        <Box sx={{ mt:{xs:5,sm:3,md:-7, lg:-7}}}>
           <Box sx={{ display: 'flex', justifyContent: 'flex-end', mb: 2 }}>
             <Box
               sx={{
@@ -440,7 +440,8 @@ const TransactionHistory = ({ phoneNumber }) => {
                                 sx={{
                                   fontWeight: 700,
                                   fontSize: '16px',
-                                  color: '#000000'
+                                  color: '#000000',
+                                  margin:'auto'
                                 }}
                               >
                                 ₹{transaction.amount}
@@ -548,7 +549,8 @@ const TransactionHistory = ({ phoneNumber }) => {
                                     fontSize: '16px',
                                     fontWeight: 400,
                                     lineHeight: '24px',
-                                    color: '#253858'
+                                    color: '#253858',
+                                    maxWidth:'300px'
                                   }}
                                 >
                                   {transaction.merchant}
@@ -594,7 +596,8 @@ const TransactionHistory = ({ phoneNumber }) => {
                                     fontWeight: 700,
                                     fontSize: '18px',
                                     lineHeight: '26px',
-                                    color: '#000000'
+                                    color: '#000000',
+                                    margin:'auto',
                                   }}
                                 >
                                   ₹{transaction.amount}
