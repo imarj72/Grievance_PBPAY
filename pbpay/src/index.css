@@ -1,4 +1,8 @@
 /* @import "tailwindcss"; */
+*{
+  padding: 0;
+  margin: 0;
+}
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: 'linear-gradient(to bottom, #E9F7FF, #DDEFFF, #FFFFFF)';
@@ -7,5 +11,27 @@ body {
   margin: 0;
   padding:0;
   scroll-behavior: smooth;
+  max-width: 100vw;
+    overflow-x: hidden;
   /* color: #2d3436; */
 }
+
+.gradient-button {
+  position: relative;
+  @media (max-width:1024px){
+      width: 130px;
+      margin-top: 20px;
+  }
+  a{
+      background: #0164ff;
+      color: #fff;
+      border-radius: 5px;
+      padding: 8px 20px;
+  }
+}
+/* .gradient-button a{
+  background: #0164ff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0px 20px;
+} */

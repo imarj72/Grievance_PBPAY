@@ -16,18 +16,18 @@ import "./App.css";
 const theme = createTheme();
 
 const App = () => {
-  const [appLoading, setAppLoading] = useState(true);
+  const [appLoading, setAppLoading] = useState(false);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setAppLoading(false);
-    }, 3500);
-    return () => clearTimeout(timer);
-  }, []);
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setAppLoading(false);
+  //   }, 3500);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
-  if (appLoading) {
-    return <Loader />;
-  }
+  // if (appLoading) {
+  //   return <Loader />;
+  // }
 
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>

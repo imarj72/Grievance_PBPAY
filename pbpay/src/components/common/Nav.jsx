@@ -57,20 +57,21 @@ const Nav = () => {
             display: "flex",
             alignItems: "center",
             gap: 1,
-            backgroundColor: "#172B4D1F", 
-            padding: "6px 16px 6px 12px",
-            borderRadius: "100px",
-            fontSize: "14px",
-            fontWeight: "500",
+            // backgroundColor: "#172B4D1F", 
+            // padding: "6px 16px 6px 12px",
+            // borderRadius: "100px",
+            // fontSize: "14px",
+            // fontWeight: "500",
             marginRight: '70px',
             marginTop: '20px'
           }}
         >
-          <img src="/Icons/Vector.svg" alt="Call Icon" style={{ width: "16px", height: "16px" }} />
+          {/* <img src="/Icons/Vector.svg" alt="Call Icon" style={{ width: "16px", height: "16px" }} />
           <span style={{ color: "#2E2E2E" }}>Need help?</span>
           <a href="#contact" style={{ color: "#007BFF", textDecoration: "none" }}>
             Contact us
-          </a>
+          </a> */}
+           <div class="gradient-button"><a id="modal_trigger" href="https://qaonboarding.pbpay.com/login" class="active">Login/Signup</a></div>
         </Box>
       )}
     </Box>
